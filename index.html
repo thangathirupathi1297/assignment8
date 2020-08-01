@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+
+        <h1>Having numbers ‘X=20’, ‘Y=10’ and ‘Z=15’, find the greatest among these
+            three numbers using conditional operator</h1>
+            <h4 id="higher"></h4>
+            <pre>
+                var x=20;
+                var y=10;
+                var z=15;
+                var greater;
+                greater=(x>y && x>z) ? "x is a higher value":(y>z)? "y is higher value": "z is higher value";
+                document.getElementById("higher").innerHTML= ("" + greater);</pre>
+                
+            <h4 id="lower"></h4>
+            <pre>
+                var less;
+                less=(x< y && x< z) ? "x is a lower value":(y< z)? "y is lower value": "z is lower value";
+                document.getElementById("lower").innerHTML=("" + less);</pre>
+            
+
+             <h1>Having numbers ‘M=50’ and ‘N=10’, swap their values without using a third variable.</h1>  
+             <h4 id="before"></h4>
+             <h4 id="after"></h4>
+             
+             
+             <pre>var after="after the swap";
+                M=M/N;
+                N=M*N;
+                M=N/M;
+                document.write("" + after,"" +M,"" +N);
+                
+                </pre> 
+
+                <h1 id="ques3"></h1>
+
+        <script src="js.js"></script>
+        
+    </body>
+</html>
